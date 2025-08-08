@@ -1,4 +1,5 @@
-# PPDB BLITAR — Monorepo (Frontend + Backend)
+# PPDB BLITAR 2025 
+![](Frontend/src/assets/original/slide-1.jpg)
 
 Dokumentasi singkat untuk mengembangkan, menjalankan, dan deploy aplikasi PPDB ini. Proyek terdiri dari dua bagian utama:
 
