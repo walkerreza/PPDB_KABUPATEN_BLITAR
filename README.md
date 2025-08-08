@@ -5,6 +5,35 @@ Dokumentasi singkat untuk mengembangkan, menjalankan, dan deploy aplikasi PPDB i
 - Frontend: `Frontend/` (React + Vite + Tailwind/Material Tailwind)
 - Backend: `Backend/` (Node.js + Express + Sequelize + PostgreSQL)
 
+## Tentang Website
+Portal PPDB (Penerimaan Peserta Didik Baru) Kabupaten Blitar yang memfasilitasi proses pendaftaran, verifikasi, penempatan, dan monitoring peserta didik lintas jenjang (TK/RA, SD, SMP termasuk Kemenag). Aplikasi ini membantu dinas, sekolah, dan calon peserta didik untuk melakukan proses secara transparan, terukur, dan terdokumentasi.
+
+### Tujuan Utama
+- Mempermudah pendaftaran siswa baru secara online.
+- Menyediakan alur verifikasi dan seleksi yang jelas (Zonasi, Afirmasi, Prestasi, Perpindahan, dsb.).
+- Memantau sebaran dan status penerimaan siswa secara real-time oleh Dinas/Super Admin.
+- Menyediakan laporan dan data agregat untuk pengambilan keputusan.
+
+### Peran Pengguna (Role)
+- Super Admin Dinas: pengaturan global, monitoring lintas sekolah, rekapitulasi.
+- Admin Sekolah: verifikasi berkas, penetapan status diterima/tidak, manajemen kuota.
+- Pendaftar/Orang Tua: membuat akun, mengisi formulir, mengunggah berkas, memantau status.
+
+### Modul/Bagian Utama (Contoh)
+- Pendaftaran dan Manajemen Akun.
+- Formulir data siswa, upload dokumen (KK, ijazah, prestasi, dsb.).
+- Seleksi berbasis jalur (Zonasi, Afirmasi, Prestasi, Kemenag).
+- Monitoring dan rekap (Dashboard Super Admin, Admin Sekolah).
+- Cetak bukti pendaftaran/kartu, ekspor data (Excel/PDF) sesuai kebutuhan.
+
+## Tangkapan Layar
+Tambahkan gambar sesuai kebutuhan. File contoh tersedia di `Frontend/src/assets/original/`.
+
+![](Frontend/src/assets/original/banner1.jpg)
+![](Frontend/src/assets/original/slide-1.jpg)
+![](Frontend/src/assets/original/prestasi.jpg)
+![](Frontend/src/assets/original/zonasi.jpg)
+
 ## Persyaratan
 - Node.js 18+ dan npm 9+
 - Git
